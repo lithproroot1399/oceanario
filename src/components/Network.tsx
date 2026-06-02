@@ -7,7 +7,6 @@ import { MdNetworkCell } from "react-icons/md"
 import { MdVpnLock } from "react-icons/md"
 import { TbNetwork } from "react-icons/tb"
 import { GiServerRack } from "react-icons/gi"
-import { useState } from "react"
 
 export default function Webapp() {
   function setShowNetwork(arg0: boolean) {
@@ -28,7 +27,7 @@ export default function Webapp() {
               setShowNetwork(!showNetwork)
               setShowNetwork(false)
             }}
-            className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition cursor-pointer"
+            className="w-full flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition cursor-pointer"
           >
             <GiServerRack className="text-blue-500 size-10" />
             <span className="text-xl font-semibold">SWITCHS</span>
@@ -39,7 +38,7 @@ export default function Webapp() {
               setShowNetwork(!showNetwork)
               setShowNetwork(false)
             }}
-            className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition cursor-pointer"
+            className="w-full flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition cursor-pointer"
           >
             <FaNetworkWired className="text-blue-500 size-10" />
             <span className="text-xl font-semibold">REDE ODL</span>
@@ -51,7 +50,7 @@ export default function Webapp() {
               setShowNetwork(!showNetwork)
               setShowNetwork(false)
             }}
-            className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition cursor-pointer"
+            className="w-full flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition cursor-pointer"
           >
             <TbNetwork className="size-10 text-blue-500" />
             <span className="text-xl font-semibold">VLANS</span>
@@ -63,7 +62,7 @@ export default function Webapp() {
               setShowNetwork(!showNetwork)
               setShowNetwork(false)
             }}
-            className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition cursor-pointer"
+            className="w-full flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition cursor-pointer"
           >
             <MdNetworkCell className="size-10 text-blue-500" />
             <span className="text-xl font-semibold">Wi-Fi</span>
@@ -75,7 +74,7 @@ export default function Webapp() {
               setShowWiFi(!showWiFi)
               setShowWiFi(false)
             }}
-            className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition cursor-pointer"
+            className="w-full flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition cursor-pointer"
           >
             <MdVpnLock className="size-10 text-blue-500" />
             <span className="text-xl font-semibold">VPN</span>
@@ -87,7 +86,7 @@ export default function Webapp() {
               setShowWiFi(!showWiFi)
               setShowWiFi(false)
             }}
-            className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition cursor-pointer"
+            className="w-full flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition cursor-pointer"
           >
             <FaTools className="size-10 text-blue-500" />
             <span className="text-xl font-semibold">TOOLS</span>
@@ -98,7 +97,7 @@ export default function Webapp() {
               setShowWiFi(!showApps)
               setShowWiFi(false)
             }}
-            className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition cursor-pointer"
+            className="w-full flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition cursor-pointer"
           >
             <FaTools className="size-10 text-blue-500" />
             <span className="text-xl font-semibold">APPS</span>

@@ -28,7 +28,7 @@ export default function Printers() {
             setShowSeguranca(!showSeguranca)
             setShowLoja(false)
           }}
-          className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition cursor-pointer"
+          className="w-full flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition cursor-pointer"
         >
           <GiPoliceOfficerHead className="size-10 text-blue-500" />
           <span className="text-xl font-semibold">SEGURANÇA</span>
@@ -39,7 +39,7 @@ export default function Printers() {
             setShowLoja(!showLoja)
             setShowSeguranca(false)
           }}
-          className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition cursor-pointer"
+          className="w-full flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition cursor-pointer"
         >
           <FaStoreAlt className="size-10 text-blue-500" />
           <span className="text-xl font-semibold">LOJA</span>
@@ -49,7 +49,7 @@ export default function Printers() {
           href="https://10.1.100.30/properties/authentication/login.php?redir=/stat/welcome.php"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition"
+          className="w-full flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition"
         >
           <GrConfigure className="size-10 text-blue-500" />
           <span className="text-xl font-semibold">BMS</span>
@@ -59,7 +59,7 @@ export default function Printers() {
           href="https://10.1.100.36/properties/authentication/login.php?redir=/stat/welcome.php"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition"
+          className="w-full flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition"
         >
           <PiBuildingOfficeBold className="size-10 text-blue-500" />
           <span className="text-xl font-semibold">OFFICE</span>
@@ -69,7 +69,7 @@ export default function Printers() {
           href="https://10.1.100.30/properties/authentication/login.php?redir=/stat/welcome.php"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition"
+          className="w-full flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition"
         >
           <MdBiotech className="size-10 text-blue-500" />
           <span className="text-xl font-semibold">BIOLOGIA</span>
