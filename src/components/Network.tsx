@@ -1,5 +1,6 @@
 "use client"
 
+// biome-ignore assist/source/organizeImports: <explanation>
 import Image from "next/image"
 
 import { FaNetworkWired, FaTools } from "react-icons/fa"
@@ -17,6 +18,10 @@ export default function Webapp() {
     throw new Error("Function not implemented.")
   }
 
+  function setShowApps(arg0: boolean) {
+    throw new Error("Function not implemented.")
+  }
+
   return (
     <div className="min-h-screen bg-black p-4">
       <div className="mx-auto flex flex-col gap-6 md:flex-row max-w-7xl">
@@ -24,7 +29,7 @@ export default function Webapp() {
           {/** biome-ignore lint/a11y/useButtonType: <explanation> */}
           <button
             onClick={() => {
-              setShowNetwork(!showNetwork)
+              setShowNetwork(!setShowNetwork)
               setShowNetwork(false)
             }}
             className="w-full flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition cursor-pointer"
@@ -35,7 +40,7 @@ export default function Webapp() {
           {/** biome-ignore lint/a11y/useButtonType: <explanation> */}
           <button
             onClick={() => {
-              setShowNetwork(!showNetwork)
+              setShowNetwork(!setShowNetwork)
               setShowNetwork(false)
             }}
             className="w-full flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition cursor-pointer"
@@ -47,7 +52,7 @@ export default function Webapp() {
           {/** biome-ignore lint/a11y/useButtonType: <explanation> */}
           <button
             onClick={() => {
-              setShowNetwork(!showNetwork)
+              setShowNetwork(!setShowNetwork)
               setShowNetwork(false)
             }}
             className="w-full flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition cursor-pointer"
@@ -59,7 +64,7 @@ export default function Webapp() {
           {/** biome-ignore lint/a11y/useButtonType: <explanation> */}
           <button
             onClick={() => {
-              setShowNetwork(!showNetwork)
+              setShowNetwork(!setShowNetwork)
               setShowNetwork(false)
             }}
             className="w-full flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition cursor-pointer"
@@ -71,7 +76,7 @@ export default function Webapp() {
           {/** biome-ignore lint/a11y/useButtonType: <explanation> */}
           <button
             onClick={() => {
-              setShowWiFi(!showWiFi)
+              setShowWiFi(!setShowWiFi)
               setShowWiFi(false)
             }}
             className="w-full flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition cursor-pointer"
@@ -83,7 +88,7 @@ export default function Webapp() {
           {/** biome-ignore lint/a11y/useButtonType: <explanation> */}
           <button
             onClick={() => {
-              setShowWiFi(!showWiFi)
+              setShowWiFi(!setShowWiFi)
               setShowWiFi(false)
             }}
             className="w-full flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition cursor-pointer"
@@ -94,7 +99,7 @@ export default function Webapp() {
           {/** biome-ignore lint/a11y/useButtonType: <explanation> */}
           <button
             onClick={() => {
-              setShowWiFi(!showApps)
+              setShowWiFi(!setShowApps)
               setShowWiFi(false)
             }}
             className="w-full flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition cursor-pointer"
