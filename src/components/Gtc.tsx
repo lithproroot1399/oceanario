@@ -1,119 +1,135 @@
 "use client"
 
 import Image from "next/image"
-import { FaNetworkWired, FaTools } from "react-icons/fa"
-import { MdNetworkCell } from "react-icons/md"
-import { MdVpnLock } from "react-icons/md"
-import { TbNetwork } from "react-icons/tb"
-import { GiServerRack } from "react-icons/gi"
-import { useState } from "react"
+
+import { GiFishingBoat } from "react-icons/gi"
+import { MdRoomPreferences } from "react-icons/md"
+import { BsGlobeAmericas } from "react-icons/bs"
+import { ImFilm } from "react-icons/im"
+import { IoLockOpen } from "react-icons/io5"
+import { MdOutlineElectricCar } from "react-icons/md"
+import { RxGlobe } from "react-icons/rx"
+import { FaCalendarAlt } from "react-icons/fa"
+import { TbLicense } from "react-icons/tb"
 
 export default function Gtc() {
-  const [showNetwork, setShowNetwork] = useState(false)
-  const [showWiFi, setShowWiFi] = useState(false)
-  const [showMdVpnLock, setShowMdVpnLock] = useState(false)
-  const [showApps, setShowApps] = useState(false)
-
   return (
-    <div className="flex gap-8 m-4">
-      <main className="flex flex-col gap-3 flex-1">
-        <div className="flex items-center gap-2">
-          <p className="text-white text-lg font-bold">Rede Oceanário</p>
-        </div>
-        {/** biome-ignore lint/a11y/useButtonType: <explanation> */}
-        <button
-          onClick={() => {
-            setShowNetwork(!showNetwork)
-            setShowNetwork(false)
-          }}
-          className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition cursor-pointer"
-        >
-          <GiServerRack className="text-blue-500 size-10" />
-          <span className="text-xl font-semibold">SWITCHS</span>
-        </button>
+    <div className="min-h-screen bg-black p-4">
+      <div className="mx-auto flex flex-col gap-6 md:flex-row max-w-7xl">
+        <aside className="w-full rounded-3xl bg-white p-6 shadow-lg md:w-1/3">
+          <a
+            href="http://10.2.1.122:8100/index.html#!/login"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition"
+          >
+            <IoLockOpen className="size-10 text-blue-500" />
+            <span className="text-xl font-semibold">SALTO</span>
+          </a>
+          <a
+            href="https://evmanager.efimob.com/login"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition"
+          >
+            <MdOutlineElectricCar className="size-10 text-blue-500" />
+            <span className="text-xl font-semibold">EFIMOB</span>
+          </a>
 
-        {/** biome-ignore lint/a11y/useButtonType: <explanation> */}
-        <button
-          onClick={() => {
-            setShowNetwork(!showNetwork)
-            setShowNetwork(false)
-          }}
-          className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition cursor-pointer"
-        >
-          <FaNetworkWired className="text-blue-500 size-10" />
-          <span className="text-xl font-semibold">REDE ODL</span>
-        </button>
+          <a
+            href="https://mytho.oceanario.pt:5005/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition"
+          >
+            <BsGlobeAmericas className="size-10 text-blue-500" />
+            <span className="text-xl font-semibold">MYTHO</span>
+          </a>
 
-        {/** biome-ignore lint/a11y/useButtonType: <explanation> */}
-        <button
-          onClick={() => {
-            setShowNetwork(!showNetwork)
-            setShowNetwork(false)
-          }}
-          className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition cursor-pointer"
-        >
-          <TbNetwork className="size-10 text-blue-500" />
-          <span className="text-xl font-semibold">VLANS</span>
-        </button>
+          <a
+            href="https://alvov3.primaveraspace.com/identity/Account/Login?ReturnUrl=%2Fidentity%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DOmniaWebApp%26redirect_uri%3Dhttps%253A%252F%252Falvov3.primaveraspace.com%252FOE_ODLFOATLC%252FPRD%252Fauth%26response_type%3Dcode%26scope%3Dopenid%2520email%2520api%2520offline_access%26state%3Dbc59d9aa91124013b4822853f57c4526%26code_challenge%3DGb7xMfk6mAaAEbmyccxpnbeL--YcodnCP6VMlOgPy5A%26code_challenge_method%3DS256%26response_mode%3Dquery"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition"
+          >
+            <RxGlobe className="size-10 text-blue-500" />
+            <span className="text-xl font-semibold">OMINIA</span>
+          </a>
 
-        {/** biome-ignore lint/a11y/useButtonType: <explanation> */}
-        <button
-          onClick={() => {
-            setShowNetwork(!showNetwork)
-            setShowNetwork(false)
-          }}
-          className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition cursor-pointer"
-        >
-          <MdNetworkCell className="size-10 text-blue-500" />
-          <span className="text-xl font-semibold">Wi-Fi</span>
-        </button>
-        {/** biome-ignore lint/a11y/useButtonType: <explanation> */}
-        <button
-          onClick={() => {
-            setShowWiFi(!showWiFi)
-            setShowWiFi(false)
-          }}
-          className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition cursor-pointer"
-        >
-          <MdVpnLock className="size-10 text-blue-500" />
-          <span className="text-xl font-semibold">VPN</span>
-        </button>
-        {/** biome-ignore lint/a11y/useButtonType: <explanation> */}
-        <button
-          onClick={() => {
-            setShowWiFi(!showWiFi)
-            setShowWiFi(false)
-          }}
-          className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition cursor-pointer"
-        >
-          <FaTools className="size-10 text-blue-500" />
-          <span className="text-xl font-semibold">TOOLS</span>
-        </button>
-        {/** biome-ignore lint/a11y/useButtonType: <explanation> */}
-        <button
-          onClick={() => {
-            setShowWiFi(!showApps)
-            setShowWiFi(false)
-          }}
-          className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition cursor-pointer"
-        >
-          <FaTools className="size-10 text-blue-500" />
-          <span className="text-xl font-semibold">APPS</span>
-        </button>
-      </main>
-      <aside className="flex w-full items-center justify-center rounded-3xl bg-white p-6 shadow-lg md:w-2/3">
-        <div className="w-full max-w-4xl text-center">
-          <Image
-            color="black"
-            src="/gtc.jpeg"
-            alt="Oceanario imagem destaque"
-            width={1000}
-            height={700}
-            className="mx-auto h-auto max-w-full rounded-3xl object-cover"
-            priority
-          />
-        </div>
-      </aside>
+          <a
+            href="http://localhost:5173/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition"
+          >
+            <FaCalendarAlt className="size-10 text-blue-500" />
+            <span className="text-xl font-semibold">CALENDÁRIO</span>
+          </a>
+
+          <a
+            href="https://admin.exchange.microsoft.com/#/resources/:/ResourceDetails/5a851767-a2cb-4786-bf7f-e44ebfe879c8"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition"
+          >
+            <MdRoomPreferences className="size-10 text-blue-500" />
+            <span className="text-xl font-semibold">SALAS DE REUNIÃO</span>
+          </a>
+          <a
+            href="https://admin.cloud.microsoft/?#/licenses"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition"
+          >
+            <TbLicense className="size-10 text-blue-500" />
+            <span className="text-xl font-semibold">LICENÇAS</span>
+          </a>
+
+          <a
+            href="https://admin.exchange.microsoft.com/#/resources/:/ResourceDetails/5a851767-a2cb-4786-bf7f-e44ebfe879c8"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition"
+          >
+            <GiFishingBoat className="size-10 text-blue-500" />
+            <span className="text-xl font-semibold">GALERIA</span>
+          </a>
+          <a
+            href="http://localhost:5173/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition"
+          >
+            <ImFilm className="size-10 text-blue-500" />
+            <span className="text-xl font-semibold">VIDEO</span>
+          </a>
+        </aside>
+
+        <main className="flex w-full items-center justify-center rounded-3xl bg-white p-6 shadow-lg md:w-2/3">
+          <div className="w-full max-w-4xl text-center">
+            <div className="flex items-center justify-center">
+              <Image
+                color="black"
+                className="flex"
+                src="/Logo.png"
+                alt="Oceanario logo"
+                width={400}
+                height={80}
+                priority
+              />
+            </div>
+            <Image
+              color="black"
+              src="/ocean.jpg"
+              alt="Oceanario imagem destaque"
+              width={900}
+              height={600}
+              className="mx-auto h-auto max-w-full rounded-3xl object-cover"
+              priority
+            />
+          </div>
+        </main>
+      </div>
     </div>
   )
 }
