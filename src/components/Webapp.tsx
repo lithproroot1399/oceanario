@@ -117,15 +117,18 @@ export default function Webapp() {
                 priority
               />
             </div>
-            <Image
-              color="black"
-              src="/marvin-meyer-SYTO3xs06fU-unsplash.jpg"
-              alt="Oceanario imagem destaque"
-              width={900}
-              height={600}
-              className="mx-auto h-auto max-w-full rounded-3xl object-cover"
-              priority
-            />
+            <div className="relative overflow-hidden rounded-3xl">
+                          <video
+                            autoPlay
+                            loop
+                            muted
+                            playsInline
+                            className="mx-auto h-auto w-full max-w-full rounded-3xl object-cover"
+                          >
+                            <source src="/IMAGENS WEBSITE 14.mp4" type="video/mp4" />
+                            Seu navegador não suporta vídeos.
+                          </video>
+                        </div>
           </div>
         </main>
       </div>

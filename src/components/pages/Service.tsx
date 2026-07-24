@@ -130,7 +130,7 @@ export default function Service() {
                 playsInline
                 className="mx-auto h-auto w-full max-w-full rounded-3xl object-cover"
               >
-                <source src="/IMAGENS WEBSITE 14.mp4" type="video/mp4" />
+                <source src="/IMAGENS WEBSITE 12.mp4" type="video/mp4" />
                 Seu navegador não suporta vídeos.
               </video>
             </div>
