@@ -1,5 +1,6 @@
 "use client"
 
+// biome-ignore assist/source/organizeImports: <explanation>
 import Image from "next/image"
 import { FaDropbox } from "react-icons/fa"
 import { FaMicrosoft } from "react-icons/fa"
@@ -97,7 +98,7 @@ export default function Service() {
           </a>
 
           <a
-            href="/webapp"
+            href="/gtc"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition"
@@ -130,7 +131,10 @@ export default function Service() {
                 playsInline
                 className="mx-auto h-auto w-full max-w-full rounded-3xl object-cover"
               >
-                <source src="/IMAGENS WEBSITE 12.mp4" type="video/mp4" />
+                <source
+                  src="/Video_Dia_Mundial_Oceano_SFMS_ 30fps.mp4"
+                  type="video/mp4"
+                />
                 Seu navegador não suporta vídeos.
               </video>
             </div>

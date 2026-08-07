@@ -1,5 +1,6 @@
 "use client"
 
+// biome-ignore assist/source/organizeImports: <explanation>
 import Image from "next/image"
 
 import { FaPhotoVideo } from "react-icons/fa"
