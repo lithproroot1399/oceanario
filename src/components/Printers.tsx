@@ -3,7 +3,7 @@
 import Image from "next/image"
 import { FaStoreAlt } from "react-icons/fa"
 import { GrConfigure } from "react-icons/gr"
-import { GiPoliceOfficerHead } from "react-icons/gi"
+import { Shield } from "lucide-react"
 import { useState } from "react"
 import { FcPrint } from "react-icons/fc"
 import { PiBuildingOfficeBold } from "react-icons/pi"
@@ -30,7 +30,7 @@ export default function Printers() {
           }}
           className="w-full flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition cursor-pointer"
         >
-          <GiPoliceOfficerHead className="size-10 text-blue-500" />
+          <Shield className="size-10 text-blue-500" />
           <span className="text-xl font-semibold">SEGURANÇA</span>
         </button>
         {/** biome-ignore lint/a11y/useButtonType: <explanation> */}

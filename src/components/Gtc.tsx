@@ -2,15 +2,15 @@
 
 import Image from "next/image"
 
-import { GiFishingBoat } from "react-icons/gi"
+import { FaPhotoVideo } from "react-icons/fa"
 import { MdRoomPreferences } from "react-icons/md"
 import { BsGlobeAmericas } from "react-icons/bs"
 import { ImFilm } from "react-icons/im"
-import { IoLockOpen } from "react-icons/io5"
 import { MdOutlineElectricCar } from "react-icons/md"
 import { RxGlobe } from "react-icons/rx"
 import { FaCalendarAlt } from "react-icons/fa"
 import { TbLicense } from "react-icons/tb"
+import { Shield } from "lucide-react"
 
 export default function Gtc() {
   return (
@@ -23,8 +23,8 @@ export default function Gtc() {
             rel="noopener noreferrer"
             className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition"
           >
-            <IoLockOpen className="size-10 text-blue-500" />
-            <span className="text-xl font-semibold">SALTO</span>
+            <Shield className="size-10 text-blue-500" />
+            <span className="text-xl font-semibold">SEGURANÇA</span>
           </a>
           <a
             href="https://evmanager.efimob.com/login"
@@ -91,7 +91,7 @@ export default function Gtc() {
             rel="noopener noreferrer"
             className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition"
           >
-            <GiFishingBoat className="size-10 text-blue-500" />
+            <FaPhotoVideo className="size-10 text-blue-500" />
             <span className="text-xl font-semibold">GALERIA</span>
           </a>
           <a
@@ -126,7 +126,7 @@ export default function Gtc() {
                 playsInline
                 className="mx-auto h-auto w-full max-w-full rounded-3xl object-cover"
               >
-                <source src="/IMAGENS WEBSITE 3.mp4" type="video/mp4" />
+                <source src="/IMAGENS WEBSITE 14.mp4" type="video/mp4" />
                 Seu navegador não suporta vídeos.
               </video>
             </div>
