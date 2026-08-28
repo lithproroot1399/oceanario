@@ -9,7 +9,7 @@ import { ImFilm } from "react-icons/im"
 import { IoLockOpen } from "react-icons/io5"
 import { MdOutlineElectricCar } from "react-icons/md"
 import { RxGlobe } from "react-icons/rx"
-import { FaCalendarAlt } from "react-icons/fa"
+import { IoStorefrontOutline } from "react-icons/io5"
 import { TbLicense } from "react-icons/tb"
 
 export default function Webapp() {
@@ -62,12 +62,12 @@ export default function Webapp() {
             rel="noopener noreferrer"
             className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition"
           >
-            <FaCalendarAlt className="size-10 text-blue-500" />
-            <span className="text-xl font-semibold">CALENDÁRIO</span>
+            <IoStorefrontOutline className="size-10 text-blue-500" />
+            <span className="text-xl font-semibold">LOJA</span>
           </a>
 
           <a
-            href="https://admin.exchange.microsoft.com/#/resources/:/ResourceDetails/5a851767-a2cb-4786-bf7f-e44ebfe879c8"
+            href="https://oceanario.easysalespos.com/login"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition"
