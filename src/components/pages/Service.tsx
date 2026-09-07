@@ -78,7 +78,7 @@ export default function Service() {
           </a>
 
           <a
-            href="http://localhost:5174/"
+            href="http://localhost/zabbix"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition"

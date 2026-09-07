@@ -4,13 +4,15 @@ import Image from "next/image"
 
 import { FaPhotoVideo } from "react-icons/fa"
 import { MdRoomPreferences } from "react-icons/md"
-import { BsGlobeAmericas } from "react-icons/bs"
 import { ImFilm } from "react-icons/im"
-import { MdOutlineElectricCar } from "react-icons/md"
 import { RxGlobe } from "react-icons/rx"
 import { FaCalendarAlt } from "react-icons/fa"
 import { TbLicense } from "react-icons/tb"
 import { Shield } from "lucide-react"
+import { FaLightbulb } from "react-icons/fa6"
+import { MdOutlineElectricCar } from "react-icons/md"
+import { GiTurnstile } from "react-icons/gi"
+import { PiThermometerCold } from "react-icons/pi"
 
 export default function Gtc() {
   return (
@@ -32,8 +34,8 @@ export default function Gtc() {
             rel="noopener noreferrer"
             className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition"
           >
-            <MdOutlineElectricCar className="size-10 text-blue-500" />
-            <span className="text-xl font-semibold">EFIMOB</span>
+            <FaLightbulb className="size-10 text-blue-500" />
+            <span className="text-xl font-semibold">LUZ</span>
           </a>
 
           <a
@@ -42,8 +44,8 @@ export default function Gtc() {
             rel="noopener noreferrer"
             className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition"
           >
-            <BsGlobeAmericas className="size-10 text-blue-500" />
-            <span className="text-xl font-semibold">MYTHO</span>
+            <PiThermometerCold className="size-10 text-blue-500" />
+            <span className="text-xl font-semibold">AR CONDICIONADO</span>
           </a>
 
           <a
@@ -52,8 +54,8 @@ export default function Gtc() {
             rel="noopener noreferrer"
             className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition"
           >
-            <RxGlobe className="size-10 text-blue-500" />
-            <span className="text-xl font-semibold">OMINIA</span>
+            <GiTurnstile className="size-10 text-blue-500" />
+            <span className="text-xl font-semibold">CATRACA</span>
           </a>
 
           <a
