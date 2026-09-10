@@ -11,6 +11,7 @@ import { FaNetworkWired } from "react-icons/fa6"
 import { RiDashboard2Fill } from "react-icons/ri"
 import { GiAquarium } from "react-icons/gi"
 import { AiFillPrinter } from "react-icons/ai"
+import { IoHome } from "react-icons/io5"
 
 export default function Service() {
   return (
@@ -120,6 +121,7 @@ export default function Service() {
                 height={80}
                 priority
               />
+              <IoHome className="size-10 text-blue-500" />
             </div>
 
             {/* Substituição da Imagem pelo Vídeo */}

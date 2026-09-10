@@ -6,7 +6,7 @@ import { FaPhotoVideo } from "react-icons/fa"
 import { MdRoomPreferences } from "react-icons/md"
 import { BsGlobeAmericas } from "react-icons/bs"
 import { ImFilm } from "react-icons/im"
-import { IoLockOpen } from "react-icons/io5"
+import { IoHome, IoLockOpen } from "react-icons/io5"
 import { MdOutlineElectricCar } from "react-icons/md"
 import { RxGlobe } from "react-icons/rx"
 import { IoStorefrontOutline } from "react-icons/io5"
@@ -117,6 +117,7 @@ export default function Webapp() {
                 height={80}
                 priority
               />
+              <IoHome className="size-10 text-blue-500" />
             </div>
             <div className="relative overflow-hidden rounded-3xl">
               <video
