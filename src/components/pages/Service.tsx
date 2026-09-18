@@ -121,7 +121,7 @@ export default function Service() {
                 height={80}
                 priority
               />
-              <IoHome className="size-10 text-blue-500" />
+              
             </div>
 
             {/* Substituição da Imagem pelo Vídeo */}
