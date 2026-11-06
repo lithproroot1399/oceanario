@@ -59,13 +59,13 @@ export default function Service() {
           </a>
 
           <a
-            href="/network"
+            href="https://go.claranet.pt/sec/tickets"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-blue-600 hover:bg-white hover:text-slate-900 transition"
           >
             <FaNetworkWired className="size-10 text-blue-500" />
-            <span className="text-xl font-semibold">NETWORK</span>
+            <span className="text-xl font-semibold">CLARANET</span>
           </a>
 
           <a
